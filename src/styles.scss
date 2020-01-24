@@ -34,3 +34,19 @@
 .bgmain{
     background-color: $primary-color-if;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+button[color=primary]{
+    background-color: $primary-color-if;
+    display: block;
+    width: 50%;
+    margin-bottom: 1em;
+    span{
+        color: $white-color;
+    }
+    
+}
